@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "pages/api/**": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "pages/**": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  }
+}
